@@ -1,10 +1,10 @@
 import React from 'react'
 import CardSlider from '../CardSlider/CardSlider'
 
-const Slider = ({movies}) => {
-    const GetMoviesFromRange = (from,to) => {
-        return movies.slice(from,to)
-    }
+const Slider = ({ movies }) => {
+  const GetMoviesFromRange = (from, to) => {
+    return movies.slice(from, to)
+  }
   return (
     <div>
       <CardSlider title="Trending Now" data={GetMoviesFromRange(0, 10)} />

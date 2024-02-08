@@ -15,6 +15,7 @@ const Navbar = ({ isScrolled }) => {
     { name: "TV Shows", link: "/tvshows" },
     { name: "Movies", link: "/movies" },
   ];
+
   onAuthStateChanged(FireAuth, (currentUser) => {
     if (!currentUser) {
       navigate("/login");

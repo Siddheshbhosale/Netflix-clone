@@ -71,6 +71,7 @@ const Card = ({ movieData, isliked = false }) => {
   );
 };
 
+
 export default Card;
 const Container = styled.div`
   max-width: 240px;
