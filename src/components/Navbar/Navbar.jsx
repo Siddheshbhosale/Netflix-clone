@@ -62,7 +62,7 @@ const Navbar = ({ isScrolled }) => {
           </div>
           <button
             onClick={() => {
-              alert("hello");
+              alert("You are been Logout");
               signOut(FireAuth);
             }}
           >
